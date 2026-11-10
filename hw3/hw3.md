@@ -85,5 +85,5 @@ def forward(self, x):
 - 降維 (512 -> 2)
 - FCN last layer
 ![](out/tsne.png)
-Accuracy = 88.39% (Boss)
-
+Private Score = 0.89671 (Boss)
+Public Score = 0.89940 (Boss)
