@@ -2,7 +2,7 @@
 
 ## DDPM
 ![](in/ddpm.png)
-- 
+
 ## DDIM
 - 非馬可夫鏈結構
 - reverse process 不額外加入新的 noise
