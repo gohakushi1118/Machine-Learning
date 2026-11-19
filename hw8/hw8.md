@@ -124,6 +124,9 @@ loss = err[:, :, 16:48, 16:48].reshape(img.shape[0], -1).mean(-1)
 ```
 
 ## Result
+- 測試 FCN Autoencoder 的 3 dim latent
+- 調整 $\sigma$ 給 decoder 重建
+- 觀察 latent 所學到的東西
 ![](out/latent.png)
 - Private Score = 0.80256
 - Public Score = 0.79708
